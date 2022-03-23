@@ -23,7 +23,19 @@ public class BinNode<T extends Comparable<T>>{
         this.conteudo = conteudo;
     }
 
-    public BinNode<T> getNoEsq(T conteudo) {
+    public void setNoEsq(BinNode<T> noEsq) {
+        this.noEsq = noEsq;
+    }
+
+    public void setNoDir(BinNode<T> noDir) {
+        this.noDir = noDir;
+    }
+
+    public BinNode<T> getNoEsq() {
         return noEsq;
+    }
+
+    public BinNode<T> getNoDir() {
+        return noDir;
     }
 }

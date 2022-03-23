@@ -15,7 +15,7 @@ public class ArvoreBinaria<T extends Comparable<T>> {
     private BinNode<T> inserir(BinNode<T> atual, BinNode<T> novoNo){
         if(atual == null){
             return novoNo;
-        }else if(novoNo.getConteudo().compareTo(atual.getConteudo())){
+        }else if(novoNo.getConteudo().compareTo(atual.getConteudo()) < 0){
             atual.setNoEsq(inserir(atual.getNoEsq(), novoNo));
         }else{
             atual.setNoDir(inserir(atual.getNoDir(), novoNo));
