@@ -16,8 +16,10 @@ $ mvn exec:java -Dexec.mainClass="one.digitalinnovation.Main"
 
 # Running Locally - Equally Hashcode
 
+```
 $ git clone https://github.com/DevEsteves/Data-Structure-Java.git
 $ cd Data-Structure-Java
 $ cd equallyHashCode
 $ mvn package
 $ mvn exec:java -Dexec.mainClass="one.digitalinnovation.Main"
+```
