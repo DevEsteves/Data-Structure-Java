@@ -4,7 +4,7 @@ Learning to use Data Structures with Java, taught by Digital Innovation One
 
 This repository contains code examples for data structures using Java
 
-# Running Locally - Arvore Binaria
+# Running Locally - Árvore Binária
 
 ```
 $ git clone https://github.com/DevEsteves/Data-Structure-Java.git
