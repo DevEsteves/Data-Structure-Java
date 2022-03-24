@@ -49,4 +49,27 @@ public class ArvoreBinaria<T extends Comparable<T>> {
         }
     }
 
+    public void remover(T conteudo){
+        try{
+            BinNode<T> atual = this.raiz;
+            BinNode<T> pai = null;
+            BinNode<T> filho = null;
+            BinNode<T> temp = null;
+
+            while(atual != null && !atual.getConteudo().equals(conteudo)){
+                pai = atual;
+                if(conteudo.compareTo(atual.getConteudo()) < 0){
+                    atual = atual.getNoEsq();
+                }else{
+                    atual = atual.getNoDir();
+                }
+            }
+
+            if(atual == null){
+                System.out.println("Conteudo nao encontrado. Bloco Try");
+            }
+        }catch(NullPointerException erro){
+            System.out.println("Conteudo nao encontrado. Bloco Catch");
+        }
+    }
 }
