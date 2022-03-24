@@ -38,4 +38,11 @@ public class BinNode<T extends Comparable<T>>{
     public BinNode<T> getNoDir() {
         return noDir;
     }
+
+    @Override
+    public String toString() {
+        return "BinNode{" +
+                "conteudo=" + conteudo +
+                '}';
+    }
 }
