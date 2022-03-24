@@ -22,4 +22,17 @@ public class ArvoreBinaria<T extends Comparable<T>> {
         }
         return atual;
     }
+
+    public void exibirEmOrdem(){
+        System.out.println("\n Exibindo Em Ordem");
+        exibirEmOrdem(this.raiz);
+    }
+
+    private void exibirEmOrdem(BinNode<T> atual){
+        if(atual != null){
+            exibirEmOrdem(atual.getNoEsq());
+            System.out.println(atual.getConteudo() + ", ");
+            exibirEmOrdem(atual.getNoDir());
+        }
+    }
 }
