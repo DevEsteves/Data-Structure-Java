@@ -1,5 +1,7 @@
 package one.digitalinnovation.app.model;
 
+import java.util.Objects;
+
 public class Obj extends ObjArvore<Obj> {
     
     Integer meuValor;
