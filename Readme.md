@@ -4,7 +4,7 @@ Learning to use Data Structures with Java, taught by [Digital Innovation One](ht
 
 This repository contains code examples for data structures using Java
 
-# Running Locally - Árvore Binária
+## Running Locally - Árvore Binária
 
 ```
 $ git clone https://github.com/DevEsteves/Data-Structure-Java.git
@@ -14,7 +14,7 @@ $ mvn package
 $ mvn exec:java -Dexec.mainClass="one.digitalinnovation.app.Main"
 ```
 
-# Running Locally - Equally Hashcode
+## Running Locally - Equally Hashcode
 
 ```
 $ git clone https://github.com/DevEsteves/Data-Structure-Java.git
