@@ -10,9 +10,8 @@ This repository contains code examples for data structures using Java
 $ git clone https://github.com/DevEsteves/Data-Structure-Java.git
 $ cd Data-Structure-Java
 $ cd Arvore_Binaria
-$ cd my-app
 $ mvn package
-$ mvn exec:java -Dexec.mainClass="one.digitalinnovation.Main"
+$ mvn exec:java -Dexec.mainClass="one.digitalinnovation.app.Main"
 ```
 
 # Running Locally - Equally Hashcode
